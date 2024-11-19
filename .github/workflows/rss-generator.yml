@@ -11,7 +11,7 @@ jobs:
   generate-rss:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Ajout explicite des permissions
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -29,9 +29,15 @@ jobs:
       - name: Generate RSS
         run: python rss_generator.py
 
-      - name: Deploy
+      - name: Prepare deployment
+        run: |
+          mkdir deploy
+          cp test_feed.xml deploy/
+          cp index.html deploy/
+
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
-          force_orphan: true # Forcer la création de la branche gh-pages
+          publish_dir: ./deploy
+          force_orphan: true

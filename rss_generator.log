@@ -161,3 +161,78 @@
 </div>
 2024-11-19 21:16:28,261 - INFO - Article ajouté: Air Transat, c’est le Canada à prix doux, mais aussi le Mexique et les Caraïbes !
 2024-11-19 21:16:28,261 - INFO - Flux RSS généré avec succès: tourmag_feed.xml
+2024-11-19 21:33:35,681 - DEBUG - Starting new HTTPS connection (1): www.tourmag.com:443
+2024-11-19 21:33:37,047 - DEBUG - https://www.tourmag.com:443 "GET /airmag/ HTTP/11" 200 None
+2024-11-19 21:33:37,130 - DEBUG - Image element trouvé: <div class="photo_left photo shadow">
+<a href="/easyJet-lance-Manchester-depuis-Rennes-et-Palma-depuis-Strasbourg_a124765.html">
+<img alt="easyJet lance Manchester depuis Rennes, et Palma depuis Strasbourg" loading="lazy" src="https://www.tourmag.com/photo/art/large_16_9/84366675-60256617.jpg?v=1732024261" title="easyJet lance Manchester depuis Rennes, et Palma depuis Strasbourg"/>
+<img alt="easyJet lance Manchester depuis Rennes, et Palma depuis Strasbourg" class="responsive" loading="lazy" src="https://www.tourmag.com/photo/art/large_x2_16_9/84366675-60256617.jpg?v=1732024261" style="display:none"/> </a>
+</div>
+2024-11-19 21:33:37,130 - INFO - Article ajouté: easyJet lance Manchester depuis Rennes, et Palma depuis Strasbourg
+2024-11-19 21:33:37,130 - DEBUG - Image element trouvé: <div class="photo_left photo shadow">
+<a href="/Norse-Atlantic-Airways-retrouvez-toutes-les-dernieres-actualites_a120971/">
+<img alt="Norse Atlantic Airways atterrit à nouveau en Antarctique" loading="lazy" src="https://www.tourmag.com/photo/art/large_16_9/77305706-56099017.jpg?v=1702460160" title="Norse Atlantic Airways atterrit à nouveau en Antarctique"/>
+<img alt="Norse Atlantic Airways atterrit à nouveau en Antarctique" class="responsive" loading="lazy" src="https://www.tourmag.com/photo/art/large_x2_16_9/77305706-56099017.jpg?v=1702460160" style="display:none"/> </a>
+</div>
+2024-11-19 21:33:37,131 - INFO - Article ajouté: Norse Atlantic Airways atterrit à nouveau en Antarctique
+2024-11-19 21:33:37,131 - DEBUG - Image element trouvé: <div class="photo_left photo shadow">
+<a href="/Avec-Donald-Trump-Make-Space-Great-Again_a124760.html">
+<img alt='Avec Donald Trump : "Make Space Great Again"' loading="lazy" src="https://www.tourmag.com/photo/art/large_16_9/84361616-60253057.jpg?v=1732010381" title='Avec Donald Trump : "Make Space Great Again"'/>
+<img alt='Avec Donald Trump : "Make Space Great Again"' class="responsive" loading="lazy" src="https://www.tourmag.com/photo/art/large_x2_16_9/84361616-60253057.jpg?v=1732010381" style="display:none"/> </a>
+</div>
+2024-11-19 21:33:37,131 - INFO - Article ajouté: Avec Donald Trump : "Make Space Great Again"
+2024-11-19 21:33:37,131 - DEBUG - Image element trouvé: <div class="photo_left photo shadow">
+<a href="/Icelandair-et-Turkish-Airlines-s-associent-pour-de-nouvelles-liaisons_a124740.html">
+<img alt="Icelandair et Turkish Airlines s’associent pour de nouvelles liaisons" loading="lazy" src="https://www.tourmag.com/photo/art/large_16_9/84265026-60198322.jpg?v=1731673113" title="Icelandair et Turkish Airlines s’associent pour de nouvelles liaisons"/>
+<img alt="Icelandair et Turkish Airlines s’associent pour de nouvelles liaisons" class="responsive" loading="lazy" src="https://www.tourmag.com/photo/art/large_x2_16_9/84265026-60198322.jpg?v=1731673113" style="display:none"/> </a>
+</div>
+2024-11-19 21:33:37,131 - INFO - Article ajouté: Icelandair et Turkish Airlines s’associent pour de nouvelles liaisons
+2024-11-19 21:33:37,131 - DEBUG - Image element trouvé: <div class="photo_left photo shadow">
+<a href="/Croatia-Airlines-renouvele-sa-flotte-pour-ses-35-ans_a124722.html">
+<img alt="Croatia Airlines renouvèle sa flotte pour ses 35 ans" loading="lazy" src="https://www.tourmag.com/photo/art/large_16_9/84238862-60182709.jpg?v=1731584992" title="Croatia Airlines renouvèle sa flotte pour ses 35 ans"/>
+<img alt="Croatia Airlines renouvèle sa flotte pour ses 35 ans" class="responsive" loading="lazy" src="https://www.tourmag.com/photo/art/large_x2_16_9/84238862-60182709.jpg?v=1731584992" style="display:none"/> </a>
+</div>
+2024-11-19 21:33:37,131 - INFO - Article ajouté: Croatia Airlines renouvèle sa flotte pour ses 35 ans
+2024-11-19 21:33:37,131 - DEBUG - Image element trouvé: <div class="photo_left photo shadow">
+<a href="/RwandAir-et-Euroairlines-Group-signent-un-accord-strategique_a124727.html">
+<img alt="RwandAir et Euroairlines Group signent un accord stratégique" loading="lazy" src="https://www.tourmag.com/photo/art/large_16_9/84244958-60186879.jpg?v=1731600948" title="RwandAir et Euroairlines Group signent un accord stratégique"/>
+<img alt="RwandAir et Euroairlines Group signent un accord stratégique" class="responsive" loading="lazy" src="https://www.tourmag.com/photo/art/large_x2_16_9/84244958-60186879.jpg?v=1731600948" style="display:none"/> </a>
+</div>
+2024-11-19 21:33:37,131 - INFO - Article ajouté: RwandAir et Euroairlines Group signent un accord stratégique
+2024-11-19 21:33:37,132 - DEBUG - Image element trouvé: <div class="photo_left photo shadow">
+<a href="/Air-Europa-la-compagnie-aerienne-qui-fait-partir-vos-clients-vers-l-Amerique-Latine-et-les-Caraibes-mais-aussi-le_a124718.html">
+<img alt="Air Europa, la compagnie aérienne qui fait partir vos clients vers l’Amérique Latine et les Caraïbes mais aussi, le saviez-vous, vers les États-Unis !" loading="lazy" src="https://www.tourmag.com/photo/art/large_16_9/84235116-60179937.jpg?v=1731573824" title="Air Europa, la compagnie aérienne qui fait partir vos clients vers l’Amérique Latine et les Caraïbes mais aussi, le saviez-vous, vers les États-Unis !"/>
+<img alt="Air Europa, la compagnie aérienne qui fait partir vos clients vers l’Amérique Latine et les Caraïbes mais aussi, le saviez-vous, vers les États-Unis !" class="responsive" loading="lazy" src="https://www.tourmag.com/photo/art/large_x2_16_9/84235116-60179937.jpg?v=1731573824" style="display:none"/> </a>
+</div>
+2024-11-19 21:33:37,132 - INFO - Article ajouté: Air Europa, la compagnie aérienne qui fait partir vos clients vers l’Amérique Latine et les Caraïbes mais aussi, le saviez-vous, vers les États-Unis !
+2024-11-19 21:33:37,132 - DEBUG - Image element trouvé: <div class="photo_left photo shadow">
+<a href="/Pourquoi-vendre-Air-Transat_a124627.html">
+<img alt="Pourquoi vendre Air Transat ?" loading="lazy" src="https://www.tourmag.com/photo/art/large_16_9/83986106-60021571.jpg?v=1730817567" title="Pourquoi vendre Air Transat ?"/>
+<img alt="Pourquoi vendre Air Transat ?" class="responsive" loading="lazy" src="https://www.tourmag.com/photo/art/large_x2_16_9/83986106-60021571.jpg?v=1730817567" style="display:none"/> </a>
+</div>
+2024-11-19 21:33:37,132 - INFO - Article ajouté: Pourquoi vendre Air Transat ?
+2024-11-19 21:33:37,132 - DEBUG - Image element trouvé: <div class="photo_left photo shadow">
+<a href="/Resaneo-part-a-fond-de-train-avec-Travel-Connect-et-s-ouvre-plus-sur-l-Europe_a124567.html">
+<img alt="Resaneo part à fond de train avec Travel Connect et s’ouvre plus sur l’Europe" loading="lazy" src="https://www.tourmag.com/photo/art/large_16_9/83843640-59943093.jpg?v=1730283577" title="Resaneo part à fond de train avec Travel Connect et s’ouvre plus sur l’Europe"/>
+<img alt="Resaneo part à fond de train avec Travel Connect et s’ouvre plus sur l’Europe" class="responsive" loading="lazy" src="https://www.tourmag.com/photo/art/large_x2_16_9/83843640-59943093.jpg?v=1730283554" style="display:none"/> </a>
+</div>
+2024-11-19 21:33:37,132 - INFO - Article ajouté: Resaneo part à fond de train avec Travel Connect et s’ouvre plus sur l’Europe
+2024-11-19 21:33:37,132 - DEBUG - Image element trouvé: <div class="photo_left photo shadow">
+<a href="/Even-More-Space-le-secret-pour-profiter-encore-plus-de-l-experience-JetBlue_a124480.html">
+<img alt="Even More® Space, le secret pour profiter encore plus de l’expérience JetBlue" loading="lazy" src="https://www.tourmag.com/photo/art/large_16_9/83690905-59864897.jpg?v=1729689713" title="Even More® Space, le secret pour profiter encore plus de l’expérience JetBlue"/>
+<img alt="Even More® Space, le secret pour profiter encore plus de l’expérience JetBlue" class="responsive" loading="lazy" src="https://www.tourmag.com/photo/art/large_x2_16_9/83690905-59864897.jpg?v=1729689713" style="display:none"/> </a>
+</div>
+2024-11-19 21:33:37,132 - INFO - Article ajouté: Even More® Space, le secret pour profiter encore plus de l’expérience JetBlue
+2024-11-19 21:33:37,132 - DEBUG - Image element trouvé: <div class="photo_left photo shadow">
+<a href="/Air-Europa-vous-permet-de-decouvrir-sa-Classe-Affaires-Long-Courriers_a124395.html">
+<img alt="Air Europa vous permet de découvrir sa Classe Affaires Long-Courriers" loading="lazy" src="https://www.tourmag.com/photo/art/large_16_9/83532506-59786586.jpg?v=1729082934" title="Air Europa vous permet de découvrir sa Classe Affaires Long-Courriers"/>
+<img alt="Air Europa vous permet de découvrir sa Classe Affaires Long-Courriers" class="responsive" loading="lazy" src="https://www.tourmag.com/photo/art/large_x2_16_9/83532506-59786586.jpg?v=1729082934" style="display:none"/> </a>
+</div>
+2024-11-19 21:33:37,132 - INFO - Article ajouté: Air Europa vous permet de découvrir sa Classe Affaires Long-Courriers
+2024-11-19 21:33:37,132 - DEBUG - Image element trouvé: <div class="photo_left photo shadow">
+<a href="/Air-Transat-c-est-le-Canada-a-prix-doux-mais-aussi-le-Mexique-et-les-Caraibes-_a123833.html">
+<img alt="Air Transat, c’est le Canada à prix doux, mais aussi le Mexique et les Caraïbes !" loading="lazy" src="https://www.tourmag.com/photo/art/large_16_9/82570977-59211268.jpg?v=1725372849" title="Air Transat, c’est le Canada à prix doux, mais aussi le Mexique et les Caraïbes !"/>
+<img alt="Air Transat, c’est le Canada à prix doux, mais aussi le Mexique et les Caraïbes !" class="responsive" loading="lazy" src="https://www.tourmag.com/photo/art/large_x2_16_9/82570977-59211268.jpg?v=1725372849" style="display:none"/> </a>
+</div>
+2024-11-19 21:33:37,133 - INFO - Article ajouté: Air Transat, c’est le Canada à prix doux, mais aussi le Mexique et les Caraïbes !
+2024-11-19 21:33:37,134 - INFO - Flux RSS généré avec succès: tourmag_feed.xml
