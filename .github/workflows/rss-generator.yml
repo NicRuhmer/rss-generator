@@ -1,15 +1,17 @@
 name: Generate RSS Feed
 on:
   schedule:
-    - cron: "0 */6 * * *" # Toutes les 6 heures
-  workflow_dispatch: # Pour permettre l'exécution manuelle
-  push: # Pour tester lors des push
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
     branches:
       - main
 
 jobs:
   generate-rss:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Ajout explicite des permissions
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -17,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: "3.11.10"
+          python-version: "3.x"
 
       - name: Install dependencies
         run: |
@@ -25,11 +27,11 @@ jobs:
           pip install -r requirements.txt
 
       - name: Generate RSS
-        run: python3.11 rss_generator.py
+        run: python rss_generator.py
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
-          publish_branch: gh-pages
+          force_orphan: true # Forcer la création de la branche gh-pages
