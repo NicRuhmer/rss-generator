@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 # Configuration du logging
 logging.basicConfig(
-    level=logging.BASIC_FORMAT,  # Changé de INFO à DEBUG
+    level=logging.INFO,  # Changé de BASIC_FORMAT à INFO
     format='%(asctime)s - %(levelname)s - %(message)s',
     filename='rss_generator.log'
 )
