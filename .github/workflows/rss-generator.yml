@@ -32,7 +32,7 @@ jobs:
       - name: Prepare deployment
         run: |
           mkdir deploy
-          cp test_feed.xml deploy/
+          cp tourmag_feed.xml deploy/
           cp index.html deploy/
 
       - name: Deploy to GitHub Pages
