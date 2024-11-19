@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 # Configuration du logging
 logging.basicConfig(
-    level=logging.DEBUG,  # Changé de INFO à DEBUG
+    level=logging.BASIC_FORMAT,  # Changé de INFO à DEBUG
     format='%(asctime)s - %(levelname)s - %(message)s',
     filename='rss_generator.log'
 )
@@ -40,32 +40,25 @@ class TourmagRSSGenerator:
                     link = 'https://www.tourmag.com' + article.find('a')['href']
                     
                     # Remonter à l'élément parent pour trouver les autres éléments
-                    article_container = article.find_parent()
+                    article_container = article.find_parent('div', class_='rub_left')
                     
-                    # Extraction de l'image avec plus de logging
-                    image_element = article_container.find(class_='photo_left photo shadow')
-                    image_url = None
-                    if image_element:
-                        logging.debug(f"Image element trouvé: {image_element}")
-                        if image_element.get('src'):        
-                            image_url = image_element['src']
-                        elif image_element.find('img'):
-                            image_url = image_element.find('img').get('src')
-                        else:
-                            logging.debug(f"Pas d'attribut src trouvé dans: {image_element}")
-
-                    # Extraction du résumé
-                    description = article_container.find(class_='resume_article')
+                    # Extraction de l'image
+                    image_element = article_container.find('img')
+                    image_url = image_element['src'] if image_element else None
+                    
+                    # Extraction du résumé - modification ici
+                    description = article_container.find('div', class_='resume_article')
                     description_text = description.text.strip() if description else ""
                     
                     # Création de la description HTML avec l'image
-                    full_description = description_text
+                    full_description = ""
                     if image_url:
                         if not image_url.startswith('http'):
                             image_url = 'https://www.tourmag.com' + image_url
-                        full_description = f'<img src="{image_url}" /><br/><br/>{description_text}'
+                        full_description += f'<img src="{image_url}" alt="{title}"/><br/><br/>'
+                    full_description += description_text
                     
-                    # Utilisation de la date actuelle car la date n'est pas mentionnée dans les sélecteurs
+                    # Utilisation de la date actuelle
                     date_aware = self.timezone.localize(datetime.now())
                     
                     self.feed.add_item(

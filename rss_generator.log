@@ -236,3 +236,18 @@
 </div>
 2024-11-19 21:33:37,133 - INFO - Article ajouté: Air Transat, c’est le Canada à prix doux, mais aussi le Mexique et les Caraïbes !
 2024-11-19 21:33:37,134 - INFO - Flux RSS généré avec succès: tourmag_feed.xml
+2024-11-19 21:52:19,475 - DEBUG - Starting new HTTPS connection (1): www.tourmag.com:443
+2024-11-19 21:52:20,556 - DEBUG - https://www.tourmag.com:443 "GET /airmag/ HTTP/11" 200 None
+2024-11-19 21:52:20,640 - INFO - Article ajouté: easyJet lance Manchester depuis Rennes, et Palma depuis Strasbourg
+2024-11-19 21:52:20,640 - INFO - Article ajouté: Norse Atlantic Airways atterrit à nouveau en Antarctique
+2024-11-19 21:52:20,640 - INFO - Article ajouté: Avec Donald Trump : "Make Space Great Again"
+2024-11-19 21:52:20,640 - INFO - Article ajouté: Icelandair et Turkish Airlines s’associent pour de nouvelles liaisons
+2024-11-19 21:52:20,640 - INFO - Article ajouté: Croatia Airlines renouvèle sa flotte pour ses 35 ans
+2024-11-19 21:52:20,640 - INFO - Article ajouté: RwandAir et Euroairlines Group signent un accord stratégique
+2024-11-19 21:52:20,641 - INFO - Article ajouté: Air Europa, la compagnie aérienne qui fait partir vos clients vers l’Amérique Latine et les Caraïbes mais aussi, le saviez-vous, vers les États-Unis !
+2024-11-19 21:52:20,641 - INFO - Article ajouté: Pourquoi vendre Air Transat ?
+2024-11-19 21:52:20,641 - INFO - Article ajouté: Resaneo part à fond de train avec Travel Connect et s’ouvre plus sur l’Europe
+2024-11-19 21:52:20,641 - INFO - Article ajouté: Even More® Space, le secret pour profiter encore plus de l’expérience JetBlue
+2024-11-19 21:52:20,641 - INFO - Article ajouté: Air Europa vous permet de découvrir sa Classe Affaires Long-Courriers
+2024-11-19 21:52:20,641 - INFO - Article ajouté: Air Transat, c’est le Canada à prix doux, mais aussi le Mexique et les Caraïbes !
+2024-11-19 21:52:20,643 - INFO - Flux RSS généré avec succès: tourmag_feed.xml
