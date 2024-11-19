@@ -17,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: "3.x"
+          python-version: "3.11.10"
 
       - name: Install dependencies
         run: |
@@ -25,7 +25,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Generate RSS
-        run: python rss_generator.py
+        run: python3.11 rss_generator.py
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
